@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="./style.css">
+   <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+  <title>Password Security Checker</title>
+</head>
+
+<body>
+  <header>
+    <div class="topnav">
+      <a href="../index.html"><img src="../images/logo.jpg" style="width:180px;height:26px;"></a>
+      <!-- <a href="./index.html">Home</a> -->
+      <a class="active" href="../Security Checker.html">Security Checker</a>
+      <a href="../Password Generator.html">Password Generator</a>
+      <a href="../FAQ.html">FAQ</a>
+      <a href="../blog.html">Blog</a>
+      <a href="../about.html">About</a>
+
+
+    </div>
+  </header>
+
+  <!--   title -->
+  <br>
+  <br>
+  <h1>
+    <b>Password Security Checker</b>
+  </h1>
+  
+  <!--main  -->
+
+  <img src="../images/password2.png" height= "100" width="200px">
+  <div>
+    <div>
+      <h3>Is your password secure?</h3>
+    </div>
+    <input placeholder="Enter your password here" id="passwordBox" autocomplete="off" autocapitalize="off"
+      type="password">
+    <br>
+    <br>
+    <input type="checkbox" name="showPassword" id="showPassword" onchange="togglePassword()">
+    <label for="showPassword">Show Password</label>
+    <div>
+      <h2>Your password is:</h2>
+      <div id="secureDisplay" class="empty">Type something check your password!</div>
+    </div>
+  </div>
+
+  <br><br> <br>
+  <br>
+  <br>
+  <br>
+  Check how we made this <a href= "../blogs/make-checker.html"> here</a>!
+
+  <!-- Disclaimer -->
+  <footer id="footer">
+    <small>We will not store your password. (<a href="/script.js">code</a>)!</small>
+    <br>
+    <small>Please do not copy the code without permission.</small>
+
+  </footer>
+
+  <!--   javascript -->
+  <script src="script.js"></script>
+  </div>
+</body>
+<!-- footer -->
+<br>
+<br>
+<br>
+<br>
+<footer id="footer">
+
+  <small>Copyright 2023 by developers of this site. All rights reserved. Not to be copied wihtout permission.</small>
+
+</footer>
+
+</html>
