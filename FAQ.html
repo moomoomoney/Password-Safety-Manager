@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="./style.css" rel="stylesheet">
+   <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+  <title>FAQ</title>
+</head>
+
+<body>
+  <header>
+    <div class="topnav">
+      <a href="../index.html"><img src="../images/logo.jpg" style="width:180px;height:26px;"></a>
+      <!-- <a href="./index.html">Home</a> -->
+      <a href="../Security Checker.html">Security Checker</a>
+      <a href="../Password Generator.html">Password Generator</a>
+      <a class="active" href="../FAQ.html">FAQ</a>
+      <a href="../blog.html">Blog</a>
+      <a href="../about.html">About</a>
+
+
+    </div>
+  </header>
+  <br>
+   <br>
+  <div id="FAQ">
+    <h1>FAQ</h1>
+    <div>
+      <div style="margin:10px;">
+        These are some questions you may have about our password checker, password attacks, or secure passwords.
+      </div>
+      <img src="../images/logo.jpg">
+
+      <button class="dropdownTitle" onclick="reveal('el1')">What is a secure password?</button>
+      <div class="dropdownText" id="el1" style="display:none;">A secure password has:
+        <ul>
+          <li>10+ characters (15+ best)</li>
+          <li>Letters (Uppercase and lowercase)</li>
+          <li>Numbers</li>
+          <li>Special characters</li>
+          <li>A variety of characters</li>
+        </ul>
+        Try to avoid using dictionary words in a password.
+      </div>
+    </div>
+    
+    <div>
+      <button class="dropdownTitle" onclick="reveal('el2')">What can I do with the Password Safety Manager?</button>
+      <div class="dropdownText" id="el2" style="display:none"> This Password Safety Manager can help you decide on a secure password, see if your password is secure, and help you learn more about secure passwords and other related topics. This will all benefit you so your password is safe and more unlikely to be hacked. You can use the <a href="https://password-safety-manager.bobjagwires.repl.co/Password%20Generator.html">Password Security Checker</a> to check to see if your password is secure, or use the <a href="https://password-safety-manager.bobjagwires.repl.co/Security%20Checker.html">Password Generator</a> to generate a secure password. </div>
+    </div>
+    
+    <div>
+      <button class="dropdownTitle" onclick="reveal('el6')">Why is a secure password important?</button>
+      <div class="dropdownText" id="el6" style="display:none">A secure password is important because it makes it harder for hackers to hack your account. If they do, they can access and edit your information, delete your account, or even change your password so you can't access it, among other things. Having a secure password can prevent password attacks, explained more in o. </div>
+    </div>
+    
+    <div>
+      <button class="dropdownTitle" onclick="reveal('el3')">More questions?</button>
+      <div class="dropdownText" id="el3" style="display:none;">Our blog section has more about passwords! Check it out <a href="https://password-safety-manager.bobjagwires.repl.co/blog.html">here</a>.</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+  <!-- footer -->
+  <br>
+  <br>
+  <br>
+  <br>
+  <footer id="footer">
+
+    <small>Copyright 2023 by developers of this site. All rights reserved. Not to be copied wihtout permission.</small>
+
+  </footer>
+</html>
+
+
+<!-- <div class="sectionDivider"></div> -->
