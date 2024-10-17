@@ -51,7 +51,7 @@ hr.divider {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 16px;
   text-decoration: none;
   font-size: 28px;
 }
@@ -69,10 +69,10 @@ hr.divider {
 }
 /* general stlyes */
 body,html{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   text-align:center;
   background-color: #b1e2d8;
-  padding:5px;
+  padding: 5px;
   font-size: 18px;
 }
 
@@ -96,7 +96,9 @@ body,html{
 
 /* title */
 .title{
-  margin:5px;
+  margin:40px;
+  padding: 5px;
+  font-family: "Montserrat", Arial, sans-serif;
 }
 /* bottom text */
 #footer{
