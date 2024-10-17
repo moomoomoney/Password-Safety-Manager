@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="../style.css" rel="stylesheet">
+   <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How Did You Make the Password Generator?</title>
+</head>
+
+<body>
+  <div class="topnav">
+    <a href="../index.html"><img src="../images/logo.jpg" style="width:180px;height:26px;"><img></a>
+    <a href="../Security Checker.html">Security Checker</a>
+    <a href="../Password Generator.html">Password Generator</a>
+    <a href="../FAQ.html">FAQ</a>
+    <a href="../blog.html">Blog</a>
+    <a href="../about.html">About</a>
+  </div>
+  <br><br>
+  <h1>How Did You Make the Password Generator?</h1>
+  <div id="blog1">
+    <img src="../images/password1.png" width="500" height="250"></img> <br><br>
+    <h4>How it Works</h4>
+    The password generator uses a combination of random numbers, letters, and symbols to create a random password. It
+    has four components: word + Word + number + symbol. As you can see, the first letter in the second word is
+    capitalized. Then, a three-digit number is generated. Lastly, a random special character is chosen. Together, a
+    password is created. An example is "grainsCalifornia248%", which will be a secure password.
+    <h4>How We Made It</h4>
+    First, we made a list of possible words. These words were all at least five letters long. This makes the password
+    more secure because it has more characters. Then, we listed possible characters.
+    Our code then established “wordString” as “word1” and “word2”, in which “word1” is lowercase while “word2” starts
+    with a capital letter. These words were taken from our list of possible words. Then, we let “number” be any
+    three-digit number. “specialChar” are the special characters that were listed earlier. The password would be
+    “wordString” + “number” + “specialChar”, which would be returned.
+    <br>
+    <br>
+    <a href="https://replit.com/@BobJagwires/Password-Safety-Manager#script.js"> <button class="button">View
+        Code</button></a>
+
+  </div>
+</body>
+
+</html>
